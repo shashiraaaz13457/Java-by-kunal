@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Sum of two..
 public class Sum {
     public static void main(String[] args) {
         Scanner Shashi = new Scanner(System.in);
