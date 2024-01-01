@@ -30,6 +30,8 @@ public class Typecasting {
         int number = 'A';
         System.out.println(number);
 
+        // java follows the unicode values , you can print anything hindi,chinese anything
+
         byte b = 42;
         char c = 'a';
         short s = 1024;
@@ -37,7 +39,7 @@ public class Typecasting {
         float f = 5.67f;
         double d = 0.1234;
         double result = (f * b) + (i / c) - (d * s);
-//        float + int + double = double(because it has large range)
+//        float + int - double = double(because it has large range)
         System.out.println((f * b) + " " + (i / c) + " " + (d * s));
         System.out.println(result);
     }
